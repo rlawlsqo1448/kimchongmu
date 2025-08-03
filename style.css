@@ -1,0 +1,49 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.screen {
+  display: none;
+  padding: 20px;
+}
+
+.active {
+  display: block;
+}
+
+.timer-bar {
+  height: 20px;
+  background-color: green;
+  width: 100%;
+  transition: width 0.2s;
+}
+
+.choice {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.choice.selected {
+  background-color: orange;
+}
+
+button.main-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
